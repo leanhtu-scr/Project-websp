@@ -32,19 +32,6 @@
       pointer-events: none;
     }
 
-    .fps-counter {
-      position: fixed;
-      top: 5px;
-      left: 10px;
-      background-color: rgba(0, 0, 0, 0.7);
-      padding: 5px 10px;
-      border-radius: 5px;
-      color: lime;
-      font-size: 14px;
-      z-index: 9999;
-      font-family: Orbitron;
-    }
-
     .snow {
       position: fixed;
       top: 0;
@@ -189,8 +176,7 @@
   <video autoplay muted loop playsinline id="bgVideo">
     <source src="background.mp4" type="video/mp4"> <!-- Video nền thay ở đây -->
   </video>
-
-  <div id="fps" class="fps-counter">FPS: 0</div>
+  
   <div class="snow"></div>
   <div class="container">
     <div class="avatar-frame">

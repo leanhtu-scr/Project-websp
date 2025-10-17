@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cần Gì Inbox</title>
+  <title>My Page (TusForum)</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
@@ -183,15 +183,69 @@
       <img src="avatar.jpg" alt="avatar" class="avatar">
       <img src="frame.png" alt="border" class="avatar-border">
     </div>   
-    <h1>Lê Anh Tú<span class="verified">✔️</span></h1>
+    <h1 style="color: #00ffff;">Lê Anh Tú<span class="verified">✔️</span></h1>
     <div class="social-icons">
       <!-- Thay thông tin liên lạc -->
-      <a href="https://www.threads.com/dripuktus/" target="_blank"><i class="fas fa-envelope"></i></a>
-      <a href="https://www.instagram.com/dripuktus/" target="_blank"><i class="fab fa-telegram"></i></a>
-      <a href="https://www.facebook.com/atus2le9/" target="_blank"><i class="fab fa-facebook"></i></a>
-      <a href="https://www.tiktok.com/@atuslesutu?_t=ZS-8x87hW2vIDF&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
-      <a href="https://github.com/leanhtu-scr" target="_blank"><i class="fab fa-github"></i></a>
-    </div>
+<div class="social-icons" style="text-align:center; margin-top:10px;">
+  <a href="https://www.threads.com/dripuktus/" target="_blank">
+    <i class="fa-brands fa-threads"></i>
+  </a>
+  <a href="https://www.instagram.com/dripuktus/" target="_blank">
+    <i class="fa-brands fa-instagram"></i>
+  </a>
+  <a href="https://www.facebook.com/atus2le9/" target="_blank">
+    <i class="fa-brands fa-facebook"></i>
+  </a>
+  <a href="https://www.tiktok.com/@atuslesutu?_t=ZS-8x87hW2vIDF&_r=1" target="_blank">
+    <i class="fa-brands fa-tiktok"></i>
+  </a>
+  <a href="https://github.com/leanhtu-scr" target="_blank">
+    <i class="fa-brands fa-github"></i>
+  </a>
+</div>
+
+<style>
+  .social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+  }
+
+  .social-icons i {
+    font-size: 28px;
+    transition: 0.4s ease;
+  }
+
+  /* 🎨 Màu thương hiệu */
+  .fa-threads { color: #000; }
+  .fa-instagram {
+    background: linear-gradient(45deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .fa-facebook { color: #1877F2; }
+  .fa-tiktok {
+    color: #000;
+    text-shadow: 1px 1px 0 #25F4EE, -1px -1px 0 #FE2C55;
+  }
+  .fa-github { color: #fff; }
+
+  /* ✨ Hiệu ứng neon khi hover */
+  .social-icons i:hover {
+    transform: scale(1.25);
+    filter: drop-shadow(0 0 8px currentColor);
+  }
+
+  /* 🌈 Hiệu ứng nhấp nháy nhẹ */
+  @keyframes glowPulse {
+    0% { filter: drop-shadow(0 0 4px currentColor); }
+    50% { filter: drop-shadow(0 0 10px currentColor); }
+    100% { filter: drop-shadow(0 0 4px currentColor); }
+  }
+
+  .social-icons i:hover {
+    animation: glowPulse 1.2s infinite alternate;
+  }
+</style>
 
     <!-- Thay dịch vụ của bạn ở đây -->
     <div class="info" style="color: white;">
